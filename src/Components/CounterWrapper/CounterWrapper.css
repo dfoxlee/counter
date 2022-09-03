@@ -1,0 +1,37 @@
+.counter-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.upper-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-value {
+    font-size: 4rem;
+}
+
+.increment,
+.decrement {
+    width: 100px;
+    height: 100px;
+    margin: 0 50px;
+    cursor: pointer;
+    font-size: 4rem;
+}
+
+.lower-counter {
+    display: flex;
+    justify-content: center;
+}
+
+.reset {
+    width: 300px;
+    height: 75px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 2rem;
+}
